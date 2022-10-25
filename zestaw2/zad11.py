@@ -5,7 +5,7 @@ text = "word"
 
 expected_result = "w_o_r_d"
 
-result = "_".join( list(text) )
+result = "_".join(text)
 
 print(result)
 
