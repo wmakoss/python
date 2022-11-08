@@ -6,9 +6,11 @@ def flatten(sequence):
     for item in sequence:
         if isinstance(item, (list, tuple)):
             if any(isinstance(item2, (list, tuple)) for item2 in item):
-                item = flatten(item)
-            for item2 in item:
-                result.append(item2)
+                for item2 in flatten(item):
+                    result.append(item2)
+            else:
+                for item2 in item:
+                    result.append(item2)
         else:
             result.append(item)
     return result
