@@ -11,7 +11,7 @@ def fibonacci(n):
 
 #tests
 
-tests = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+tests = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 expected_results = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
