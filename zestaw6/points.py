@@ -48,7 +48,6 @@ import unittest
 class TestPoint(unittest.TestCase):
 
     def setUp(self): pass
-        # self.t1 = Time(3723)
 
     def test_print(self):       # test str() i repr()
         self.assertEqual(str(Point(1, 2)), "(1, 2)")
