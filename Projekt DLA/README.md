@@ -1,4 +1,4 @@
-# Generowanie fraktali w 2D za pomocą symulacji [Diffusion-limited aggregation](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)
+# Generowanie fraktali 2D za pomocą symulacji [Diffusion-limited aggregation](https://en.wikipedia.org/wiki/Diffusion-limited_aggregation)
 
 ### Autor: Wojciech Makosiej
 ---
@@ -16,6 +16,8 @@
 
 ### Jak uruchomić program:
 ```
+git clone https://github.com/wmakoss/python.git
+cd python/Projekt\ DLA/
 pip install -r requirements.txt
 python dla.py
 ```
@@ -39,3 +41,23 @@ python dla.py
 ## Symulacja przebiega w następujący sposób:
 
 Program losowo rozmieszcza punkty w oknie (Zielone) i jeden punkt na środku okna (czerwony). Następnie wykonuje iteracje aż do momenu gdy każdy zielony punkt zamieni się na czerwony. Każda iteracja polega na losowym ruchu każdego zielonego punktu i sprawdzeniu czy ma kontakt z czerwonym punktem. Jeżeli tak kolor punktu zostaje zmieniony na czerwony.
+
+## Przykładowe wygenerowane fraktale:
+### Przykład 1:<br />
+![Przyklad 1](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla1.png?raw=true)
+### Przykład 2:<br />
+![Przyklad 2](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla2.png?raw=true)
+### Przykład 3:<br />
+![Przyklad 3](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla3.png?raw=true)
+### Przykład 4:<br />
+![Przyklad 4](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla4.png?raw=true)
+### Przykład 5:<br />
+![Przyklad 5](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla5.png?raw=true)
+### Przykład 6:<br />
+![Przyklad 6](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla6.png?raw=true)
+### Przykład 7:<br />
+![Przyklad 7](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla7.png?raw=true)
+### Przykład 8:<br />
+![Przyklad 8](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla8.png?raw=true)
+### Przykład 9:<br />
+![Przyklad 9](https://github.com/wmakoss/python/blob/main/Projekt%20DLA/dla9.png?raw=true)
