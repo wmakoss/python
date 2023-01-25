@@ -110,7 +110,7 @@ def main_loop():
         
         pygame.display.flip()
 
-def do_screen_shot():
+def save_to_png():
     img = []
     for y in range(WINDOW_HEIGHT):
         row = ()
@@ -169,6 +169,6 @@ if __name__ == "__main__":
 
     main_loop()
 
-    do_screen_shot()
+    save_to_png()
 
     display.close()
